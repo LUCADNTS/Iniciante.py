@@ -5,6 +5,6 @@ import pygame
 
 pygame.mixer.init()
 pygame.init()
-pygame.mixer.music.load('ex021.mp3')
+pygame.mixer.music.load('ex021.mp3') # aqui voce pode alterar para qualquer tipo de arquivo.mp3 que preferir.
 pygame.mixer.music.play(loops=0, start=0.0)
 pygame.event.wait()

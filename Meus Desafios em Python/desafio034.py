@@ -1,6 +1,7 @@
 '''Escreva um programa que pergunte um salario de um funcionario e calcule o valor do seu aumento.
 para salarios superiores a R$1.250,00 calcule um aumento de 10%
 para inferiores ou iguais, o aumento é de 15%'''
+
 import math
 
 '''
@@ -21,8 +22,6 @@ if salario <= 1250:
 '''
 
 
-
-
 salario = float(input('Digite o salario do Funcionario: '))
 
 if salario > 1250:
@@ -30,7 +29,9 @@ if salario > 1250:
     total = salario + aumento
     print('O salario com aumento de 10% ficou : {:.2f}R$'.format(total))
 
-if salario <= 1250:
+elif salario <= 1250:
     aumento2 = (salario * 15) / 100
     total2 = salario + aumento2
     print('O salario com aumento de 15% ficou : {:.2f}R$'.format(total2))
+
+

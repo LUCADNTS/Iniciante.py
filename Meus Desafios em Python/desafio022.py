@@ -1,8 +1,10 @@
-'''crie um programa que leia o nome completo de uma pesoa e mostre:'''
-'''- o nome com todas as letras maiúsculas '''
-'''- o nome com todas  minusculas '''
-'''- quantas letras ao todo (sem considerar espaços) '''
-'''- quantas letras tem o primeiro nome '''
+'''
+crie um programa que leia o nome completo de uma pesoa e mostre:
+- o nome com todas as letras maiúsculas 
+- o nome com todas  minusculas 
+- quantas letras ao todo (sem considerar espaços)
+- quantas letras tem o primeiro nome 
+'''
 
 '''
 a = input(str('digite seu nome completo: ')).strip()

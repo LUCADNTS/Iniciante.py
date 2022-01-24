@@ -1,9 +1,12 @@
-'''faça um programa que leia o angulo qualquer e mostre
-na tela o valor do seno, cosseno e tangente desse angulo '''
+'''
+faça um programa que leia o angulo qualquer e mostre
+na tela o valor do seno, cosseno e tangente desse angulo
+'''
 
 # uma maneria de fazer é :
 
-'''import math
+'''
+import math
 angulo = float(input('Digite um numero: '))
 seno = math.sin(math.radians(angulo))
 
@@ -13,9 +16,11 @@ cosseno = math.cos(math.radians(angulo))
 print('O angulo é {} tem o COSSENO de {:.2f}'.format(angulo, cosseno))
 tangente = math.tan(math.radians(angulo))
 
-print('O angulo de {} tem o TANGENTE de {:.2f}'.format(angulo, tangente))'''
+print('O angulo de {} tem o TANGENTE de {:.2f}'.format(angulo, tangente))
+'''
 
 # posso simplificar usando:
+
 '''
 from math import radians, sin, cos, tan
 

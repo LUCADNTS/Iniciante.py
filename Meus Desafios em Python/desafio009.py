@@ -1,5 +1,7 @@
 '''faça um programa que leia um numero inteiro qualuqer e  mostre a tabuada na tela'''
+
 numero = int(input('digite um numero: '))
+
 a1 = numero * 1
 a2 = numero * 2
 a3 = numero * 3

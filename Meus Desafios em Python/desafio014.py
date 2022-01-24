@@ -2,9 +2,11 @@
 
 
 '''
+
 temperatura = float(input('Digite uma temperatura: '))
 celcios = (temperatura * 1.8) + 32.00
 print('A temperatura {}°C é igual a {}°F'.format(temperatura, celcios))
+
 '''
 
 #OU

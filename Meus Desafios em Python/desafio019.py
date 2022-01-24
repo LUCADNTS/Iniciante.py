@@ -38,4 +38,4 @@ aluno4 = str(input('Nome aluno 4: '))
 lista = [aluno1, aluno2, aluno3, aluno4]
 
 escolhido = random.choice(lista)
-print('{} foi o escolhido apra limpar a lousa'.format(escolhido))
+print('{} foi o escolhido para limpar a lousa'.format(escolhido))

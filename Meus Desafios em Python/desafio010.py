@@ -2,5 +2,7 @@
  considere U$ 1,00 = R$ 5.47 '''
 
 carteira = float(input('Quanto dinheiro eu tenho: '))
+
 dolar = carteira / 5.47
+
 print('Eu posso comprar {:.2f} U$ dolares com {:.2f} R$ reais'.format(dolar, carteira))

@@ -4,19 +4,25 @@
 # posso usar -> ( import math )
 
 import math
-'''a = float(input('Digite um numero: '))
-print('A parte inteiro do numero {} é {}'.format(a, math.trunc(a)))'''
+'''
+a = float(input('Digite um numero: '))
+print('A parte inteiro do numero {} é {}'.format(a, math.trunc(a)))
+'''
 
 # ou posso usar tambem -> ( from math import trunc )
 
-'''from math import trunc
+'''
+from math import trunc
 a = float(input('digite um numero: '))
-print('A parte inteira do numero {} é {}'.format(a, trunc(a)))'''
+print('A parte inteira do numero {} é {}'.format(a, trunc(a)))
+'''
 
 # ou podemos fazer dessa maneira
 
-'''num = float(input('digite um valor: '))
-print('o valor digitado é {} e a parte inteira é {}'.format(num, int(num)))'''
+'''
+num = float(input('digite um valor: '))
+print('o valor digitado é {} e a parte inteira é {}'.format(num, int(num)))
+'''
 
 
 numero = float(input('digite um numero real: '))

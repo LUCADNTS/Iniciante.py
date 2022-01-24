@@ -1,5 +1,6 @@
-''' desenvolva uma logica que leia o peso e a altura de uma pessoa, calcule seu imc e mostre
- seu status, de acordo com a tabela abaixo:
+''' 
+desenvolva uma logica que leia o peso e a altura de uma pessoa, calcule 
+seu imc e mostre seu status, de acordo com a tabela abaixo:
  - abaixo de 18.5: ABAIXO DO PESO
  - entre 18.5 e 25: PESO IDEAL
  - 25 até 30: SOBREPESO

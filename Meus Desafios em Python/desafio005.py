@@ -1,4 +1,5 @@
 ''' faça um programa que leia e mostre na tela o seu secussor e seu antecessor'''
+
 num = int(input('Digite um numero: '))
 
 antecessor = num - 1

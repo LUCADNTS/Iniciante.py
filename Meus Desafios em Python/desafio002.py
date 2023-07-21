@@ -2,3 +2,6 @@
 
 nome = input('digite seu nome: ')
 print('Prazer em te conhecer', nome)
+
+nome = input('Qual seu nome ? ')
+print('prazer', nome)

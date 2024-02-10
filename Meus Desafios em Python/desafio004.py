@@ -9,9 +9,16 @@ print('é alfhanumerico? {}'.format(a.isalnum()))
 
 '''
 
-a= str(input('Digite algo : '))
+''' a= str(input('Digite algo : '))
  
 print(type(a))
 print('é numerico? {} '.format(a.isnumeric()))
 print('é alphanumérico? {} '.format(a.isalpha()))
 print('é aplhanumerico? {} '.format(a.isalnum()))
+'''
+
+a = str(input("Digite algo: "))
+print(type(a))
+print("é numérico? {}".format(a.isnumeric()))
+print("é alfabético? {}".format(a.isalpha()))
+print("é númerico? {}".format(a.isalnum()))
